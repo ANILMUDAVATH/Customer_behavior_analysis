@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyses consumer shopping data to identify patterns in customer spending, product preferences, discounts, subscriptions, ratings, shipping and purchasing behaviour.
+This project analyses consumer shopping data to identify patterns in customer spending, product preferences, discounts, subscriptions, ratings, shipping and purchasing behaviour..
 
 The analysis is designed to support both Data Analyst and Business Analyst responsibilities by combining technical analysis with business requirements, stakeholder needs, KPIs and actionable recommendations.
 
