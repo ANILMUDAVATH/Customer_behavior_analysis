@@ -31,6 +31,12 @@ How can demographic, product, spending, discount, subscription, satisfaction, sh
 6. Segment customers using available behavioural characteristics.
 7. Translate analytical findings into measurable business recommendations.
 
+## Business Analysis Documentation
+
+- [Stakeholder Analysis](reports/business_requirements/stakeholder_analysis.md)
+- KPI Dictionary — To be added
+- Business Requirements Document — To be added
+
 ## Dataset Overview
 
 - Records: 3,900
@@ -54,16 +60,15 @@ Each row represents one customer's current purchase together with summary inform
 
 ## Project Workflow
 
-1. Business understanding
-2. Data audit
-3. Data cleaning
-4. Feature engineering
-5. Exploratory data analysis
-6. Statistical analysis
-7. Customer segmentation
-8. SQL analysis
-9. Power BI dashboard
-10. Business recommendations
+flowchart TD
+    A["Business problem"] --> B["Stakeholder analysis"]
+    B --> C["Requirements and KPIs"]
+    C --> D["Data audit and cleaning"]
+    D --> E["Exploratory analysis"]
+    E --> F["Statistical validation"]
+    F --> G["Customer segmentation"]
+    G --> H["Power BI dashboard"]
+    H --> I["Recommendations and impact plan"]
 
 ## Important Data-Quality Findings
 
@@ -73,18 +78,6 @@ Each row represents one customer's current purchase together with summary inform
 - Customer IDs are ordered by gender and cannot be used as predictive features.
 - The dataset does not contain transaction dates, order IDs, cost, profit or sales-channel information.
 
-## Current Status
-
-- [x] Business problem defined
-- [x] Dataset audited
-- [x] Data limitations identified
-- [ ] Data cleaning completed
-- [ ] Exploratory analysis completed
-- [ ] Statistical testing completed
-- [ ] SQL analysis completed
-- [ ] Customer segmentation completed
-- [ ] Power BI dashboard completed
-- [ ] Recommendations finalised
 
 ## Repository Structure
 
@@ -92,10 +85,14 @@ Each row represents one customer's current purchase together with summary inform
 consumer-shopping-behaviour-analysis/
 ├── README.md
 ├── data/
-│   ├── raw/
-│   └── processed/
 ├── notebooks/
 ├── sql/
 ├── dashboard/
-├── reports/
-└── images/
+├── images/
+└── reports/
+    ├── business_requirements/
+    │   ├── stakeholder_analysis.md
+    │   ├── kpi_dictionary.md
+    │   └── business_requirements_document.md
+    ├── data_dictionary.md
+    └── data_quality_report.md
