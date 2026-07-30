@@ -33,9 +33,9 @@ How can demographic, product, spending, discount, subscription, satisfaction, sh
 
 ## Business Analysis Documentation
 
-- [Stakeholder Analysis](reports/business_requirements/stakeholder_analysis.md)
-- KPI Dictionary — To be added
-- Business Requirements Document — To be added
+- [Stakeholder Analysis]
+- KPI Dictionary 
+- Business Requirements Document 
 
 ## Dataset Overview
 
@@ -58,17 +58,21 @@ Each row represents one customer's current purchase together with summary inform
 - Power BI: Interactive dashboard
 - GitHub: Documentation and portfolio presentation
 
-## Project Workflow
+## Project Roadmap
 
+```mermaid
 flowchart TD
-    A["Business problem"] --> B["Stakeholder analysis"]
-    B --> C["Requirements and KPIs"]
-    C --> D["Data audit and cleaning"]
-    D --> E["Exploratory analysis"]
-    E --> F["Statistical validation"]
-    F --> G["Customer segmentation"]
-    G --> H["Power BI dashboard"]
-    H --> I["Recommendations and impact plan"]
+    A["1. Business Problem Definition"] --> B["2. Stakeholder Analysis"]
+    B --> C["3. Requirements and KPI Definition"]
+    C --> D["4. Data Audit and Cleaning"]
+    D --> E["5. Exploratory Data Analysis"]
+    E --> F["6. SQL Business Analysis"]
+    F --> G["7. Statistical Validation"]
+    G --> H["8. Customer Segmentation"]
+    H --> I["9. Product Opportunity Analysis"]
+    I --> J["10. Power BI Dashboard"]
+    J --> K["11. Recommendation Prioritisation"]
+    K --> L["12. Documentation and Presentation"]
 
 ## Important Data-Quality Findings
 
