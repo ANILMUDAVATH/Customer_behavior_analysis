@@ -60,6 +60,7 @@ Each row represents one customer's current purchase together with summary inform
 
 ## Project Roadmap
 
+```markdown
 flowchart TD
     A["1. Business Problem Definition"] --> B["2. Stakeholder Analysis"]
     B --> C["3. Requirements and KPI Definition"]
