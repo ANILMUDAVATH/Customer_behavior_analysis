@@ -74,6 +74,7 @@ flowchart TD
     J --> K["11. Recommendation Prioritisation"]
     K --> L["12. Documentation and Presentation"]
 
+```
 ## Important Data-Quality Findings
 
 - There are 37 missing review ratings.
